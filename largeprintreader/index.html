@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Large Print Reader</title>
+<meta name="description" content="A Chrome extension that opens news stories and blog posts in big, clear letters with one click.">
+<meta name="author" content="BigPoppaDev">
+<meta name="theme-color" content="#FBF5E6">
+<link rel="canonical" href="https://podany64-pixel.github.io/largeprintreader/">
+<meta property="og:site_name" content="Large Print Reader">
+<meta property="og:title" content="Large Print Reader">
+<meta property="og:description" content="A Chrome extension that opens news stories and blog posts in big, clear letters with one click.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://podany64-pixel.github.io/largeprintreader/">
+<meta property="og:image" content="https://podany64-pixel.github.io/largeprintreader/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Large Print Reader">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Large Print Reader">
+<meta name="twitter:description" content="A Chrome extension that opens news stories and blog posts in big, clear letters with one click.">
+<meta name="twitter:image" content="https://podany64-pixel.github.io/largeprintreader/assets/og.png">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="./favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="./site.webmanifest">
+<link rel="stylesheet" href="./site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Large Print Reader", "applicationCategory": "BrowserApplication", "operatingSystem": "Chrome", "softwareVersion": "0.2.0", "description": "A Chrome extension that opens news stories and blog posts in big, clear letters with one click.", "url": "https://podany64-pixel.github.io/largeprintreader/", "publisher": {"@type": "Organization", "name": "BigPoppaDev"}}</script>
+</head>
+<body>
+<div class="site">
+  <a class="skip" href="#main">Skip to the main part of the page</a>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">Aa</span>Large Print Reader</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="./#how">How it works</a></li>
+          <li><a href="./#settings">What you can change</a></li>
+          <li><a href="./#plus">Plus</a></li>
+          <li><a href="./#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Articles in large print, in one click.</h1>
+          <p class="hero-sub">Click one button in Chrome and the article opens in big, clear letters, with nothing else in the way.</p>
+          <div class="cta-row">
+            <a class="cta-how" href="#how">How it works<span class="arrow" aria-hidden="true">↓</span></a>
+            <a class="cta-mail" href="mailto:lazyfreelancer1@gmail.com?subject=Large%20Print%20Reader">Email support</a>
+          </div>
+        </div>
+        <div>
+          <p class="pv-cap" id="pv-cap">Try the reading controls here.</p>
+          <div class="pv" data-pv role="group" aria-labelledby="pv-cap">
+            <div class="pv-bar">
+              <button type="button" data-act="smaller"><span class="big" aria-hidden="true">A−</span>Smaller</button>
+              <button type="button" data-act="bigger"><span class="big" aria-hidden="true">A+</span>Bigger</button>
+              <button type="button" data-act="theme">Colors: <span data-show="theme">Cream</span></button>
+              <button type="button" data-act="spacing">Spacing: <span data-show="spacing">Roomy</span></button>
+              <button type="button" data-act="letters">Letters: <span data-show="letters">Plain</span></button>
+            </div>
+            <div class="pv-page" tabindex="0" aria-label="Sample article in the reading view">
+              <h2>A sample article</h2>
+              <p class="pv-meta">About 1 minute to read</p>
+              <p>This is how a story looks in Large Print Reader. Press Bigger until the words are easy on your eyes.</p>
+              <p>Press Colors to move through cream, white, dark and high contrast. Spacing opens up the lines. Letters switches between a plain style and a classic one.</p>
+              <p>The extension remembers what you pick, so the next article opens the same way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <img class="photo" src="assets/table-reading.jpg" alt="Reading glasses and a mug of tea beside an open laptop on a wooden table." width="1344" height="752" loading="lazy">
+        <ol class="steps">
+          <li><div><h3>Open an article</h3><p>A news story, a blog post, or any page with a main block of text.</p></div></li>
+          <li><div><h3>Click the Large Print Reader button</h3><p>It sits in Chrome’s toolbar. You can also press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>. The article opens in large print.</p></div></li>
+          <li><div><h3>Go back when you’re done</h3><p>Click the button again, press <kbd>Esc</kbd>, or choose Close. The page returns exactly as it was.</p></div></li>
+        </ol>
+        <div class="catch">
+          <h3>Where it won’t work</h3>
+          <p>It needs a page with a main block of text. On a homepage or a list of headlines it says so, and reminds you how to use Chrome’s own zoom instead. Chrome also blocks extensions on its own pages, the Chrome Web Store and PDFs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="settings">
+      <div class="wrap">
+        <h2>Set it up for your eyes</h2>
+        <dl class="specs">
+          <div><dt>Text size</dt><dd>From 18 to 64 pixels. It starts at 28. The plus and minus keys change it while you read.</dd></div>
+          <div><dt>Colors</dt><dd>Four choices, each with its own background and text.
+            <ul class="swatches">
+              <li style="background:#FBF5E6;color:#1A1A1A">Cream</li>
+              <li style="background:#FFFFFF;color:#000000">White</li>
+              <li style="background:#1C1C1C;color:#F2F2F2">Dark</li>
+              <li style="background:#000000;color:#FFFF00">High contrast</li>
+            </ul></dd></div>
+          <div><dt>Space between lines</dt><dd>Normal, Roomy or Extra.</dd></div>
+          <div><dt>Letter style</dt><dd>Plain or Classic.</dd></div>
+          <div><dt>Line length</dt><dd>Comfortable or Wide.</dd></div>
+          <div><dt>Pictures</dt><dd>Show the article’s pictures or hide them.</dd></div>
+        </dl>
+        <p class="specs-note">Your choices are saved for next time.</p>
+      </div>
+    </section>
+
+    <section class="band" id="plus">
+      <div class="wrap plus-grid">
+        <img class="photo" src="assets/headphones.jpg" alt="Headphones on a wooden side table next to a closed laptop and a small plant." width="1024" height="688" loading="lazy">
+        <div>
+          <h2>Plus reads the article to you</h2>
+          <div class="tiers">
+            <section><h3>Free</h3><p>The large print view and every setting above.</p></section>
+            <section>
+              <h3>Plus</h3>
+              <p>Plus reads any article to you out loud, using the speech voices built into your browser. You choose the speed, and each paragraph lights up as it’s read.</p>
+              <p><strong>Plus will cost $2 a month. It isn’t on sale yet.</strong></p>
+              <p>When it goes on sale, payment will run through Stripe and the charge will show as LARGE PRINT READER. Here is how <a href="refunds/">refunds and cancelling</a> will work.</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band statement" id="privacy">
+      <div class="wrap">
+        <h2>It doesn’t track what you read</h2>
+        <p>Large Print Reader works on the page you choose, only when you click its button. It doesn’t collect or send anything about what you read.</p>
+        <p>Your size and color choices are saved in Chrome, so they are there next time.</p>
+        <p><a href="privacy/">Read the full privacy page</a></p>
+      </div>
+    </section>
+
+    <section class="band" id="contact">
+      <div class="wrap">
+        <div class="avail">
+          <h2>Not in the Chrome Web Store yet</h2>
+          <p>Large Print Reader is at version 0.2.0 and still being tested. Questions in the meantime are welcome at <span class="addr">lazyfreelancer1@gmail.com</span>.</p>
+          <a class="cta-mail" href="mailto:lazyfreelancer1@gmail.com?subject=Large%20Print%20Reader">Email support</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="foot">
+    <div class="wrap">
+      <p>Large Print Reader is made by BigPoppaDev.</p>
+      <p>Article detection uses Mozilla’s Readability library, under the Apache License 2.0.</p>
+      <p>Support: <a href="mailto:lazyfreelancer1@gmail.com">lazyfreelancer1@gmail.com</a></p>
+      <ul class="foot-links">
+        <li><a href="./privacy/">Privacy</a></li>
+        <li><a href="./refunds/">Refunds and cancelling</a></li>
+      </ul>
+      <p>© 2026 BigPoppaDev</p>
+    </div>
+  </footer>
+</div>
+<script src="preview.js" defer></script>
+</body>
+</html>
