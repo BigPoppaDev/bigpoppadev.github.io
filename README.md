@@ -5,6 +5,7 @@ The public pages for Large Print Reader, a Chrome extension by BigPoppaDev.
 - Home: https://bigpoppadev.github.io/largeprintreader/
 - Privacy: https://bigpoppadev.github.io/largeprintreader/privacy/
 - Refunds and cancelling: https://bigpoppadev.github.io/largeprintreader/refunds/
+- Large Print Crosswords privacy: https://bigpoppadev.github.io/largeprintcrosswords/privacy/
 
 Plain HTML, CSS and one small script. Nothing to build: edit the files in `largeprintreader/` and the site updates.
 
