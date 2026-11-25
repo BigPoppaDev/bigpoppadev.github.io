@@ -47,7 +47,7 @@
   <main id="main">
     <article class="doc">
       <h1>Privacy</h1>
-      <p class="doc-meta">Effective date: November 20, 2026. This page covers the Large Print Reader extension (version 0.3.0) and this website. Large Print Reader is made by BigPoppaDev.</p>
+      <p class="doc-meta">Effective date: November 24, 2026. This page covers the Large Print Reader extension (versions 0.3.0 and 0.4.0) and this website. Large Print Reader is made by BigPoppaDev.</p>
 
       <h2>What the extension collects about your reading</h2>
       <p>Nothing. Large Print Reader works on the page you choose, only when you click its button or press its shortcut. It doesn’t collect or send the pages you open, the articles you read, or your browsing history. It has no ads, no analytics and no tracking.</p>
@@ -58,7 +58,7 @@
       <p>The extension also saves a few things for Plus:</p>
       <ul>
         <li>Whether you have Plus, so read aloud keeps working if your internet drops.</li>
-        <li>For the payment system, ExtensionPay: the date you installed the extension and, once you choose Get Plus or I already paid, an account key. If you buy Plus, your email address and whether your subscription is active are saved too.</li>
+        <li>For the payment system, ExtensionPay: the date you installed the extension and, once you choose Get Plus, I already paid or (in version 0.4.0 and later) Try it free, an account key. If you start the free trial or buy Plus, your email address is saved too, along with when your trial started or whether your subscription is active.</li>
       </ul>
       <p>If you have Chrome sync turned on, Chrome may copy these to your other computers through your Google account. BigPoppaDev never receives them. Removing the extension removes what it saved in your browser.</p>
 
@@ -78,10 +78,12 @@
       <ul>
         <li>You give an email address when you pay.</li>
         <li>Your card details go to Stripe. BigPoppaDev never sees your full card number.</li>
-        <li>ExtensionPay keeps your email and whether your subscription is active. The extension checks with ExtensionPay to see if Plus should be turned on.</li>
+        <li>ExtensionPay keeps your email, when your free trial started if you started one, and whether your subscription is active. To start a trial, ExtensionPay emails you a link to confirm it. The extension checks with ExtensionPay to see if Plus should be turned on.</li>
         <li>BigPoppaDev can see your email, what you paid and when, so it can answer questions and give refunds.</li>
       </ul>
-      <p>The extension doesn’t contact ExtensionPay or Stripe at all until you press Get Plus or I already paid. After that, it checks your plan with ExtensionPay when you press Read aloud or open the settings page. That check sends only the account key, never what you are reading.</p>
+      <p>The extension doesn’t contact ExtensionPay or Stripe at all until you press Get Plus, I already paid or (in version 0.4.0 and later) Try it free. After that, it checks your plan with ExtensionPay when you press Read aloud or open the settings page. That check sends only the account key, never what you are reading.</p>
+      <p>In version 0.4.0 and later, the extension counts how many articles you have opened, on your own computer only, so it knows when to ask once for a store review. That count is never sent anywhere.</p>
+      <p>In version 0.4.0 and later, if you remove the extension, Chrome opens a page on this website asking why. Answering is up to you, and the extension sends nothing when it is removed.</p>
       <p>ExtensionPay and Stripe each have their own privacy policy, on their own websites.</p>
 
       <h2>If you email support</h2>
