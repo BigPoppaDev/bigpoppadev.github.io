@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy | Never Lose Tabs</title>
-<meta name="description" content="What Never Lose Tabs does with your saved tabs: they stay on your computer and are never sent anywhere.">
+<meta name="description" content="What Never Lose Tabs does with your saved tabs, and what ExtensionPay and Stripe handle when you try or buy Plus.">
 <meta name="author" content="BigPoppaDev">
 
 <link rel="canonical" href="https://bigpoppadev.github.io/neverlosetabs/privacy/">
 <meta property="og:site_name" content="Never Lose Tabs">
 <meta property="og:title" content="Privacy | Never Lose Tabs">
-<meta property="og:description" content="What Never Lose Tabs does with your saved tabs: they stay on your computer and are never sent anywhere.">
+<meta property="og:description" content="What Never Lose Tabs does with your saved tabs, and what ExtensionPay and Stripe handle when you try or buy Plus.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://bigpoppadev.github.io/neverlosetabs/privacy/">
 <link rel="icon" href="../icon128.png" type="image/png">
@@ -40,34 +40,36 @@ main{padding:36px 0 48px} h1{font-size:34px;line-height:1.2;margin:0 0 10px} h2{
 </div></header>
 <main id="main"><article class="wrap">
 <h1>Privacy</h1>
-<p class="meta">Effective date: November 25, 2026. This page covers the Never Lose Tabs Chrome extension (version 1.0.0) and this website. Never Lose Tabs is made by BigPoppaDev.</p>
+<p class="meta">Effective date: November 26, 2026. This page covers the Never Lose Tabs Chrome extension (version 1.1.0 and later, free and Plus) and this website. Never Lose Tabs is made by BigPoppaDev.</p>
 
-<p><strong>The short version:</strong> the tabs you save stay in Chrome on your computer. Never Lose Tabs doesn't send them to us or anyone else, and it has no ads, analytics or tracking.</p>
+<p><strong>The short version:</strong> the tabs you save stay in Chrome on your computer. Never Lose Tabs doesn't send them to us or anyone else, and it has no ads, analytics or tracking. To know whether you have Plus, it checks with ExtensionPay, the payment service we use. If you start a trial or buy Plus, ExtensionPay keeps your email address, and Stripe handles your payment.</p>
 
 <h2>What the extension stores, and where</h2>
-<p>When you click <em>Save all tabs in this window</em>, Never Lose Tabs reads the web address (URL) and title of each tab in that window and saves them in your browser's own extension storage on your computer. It also stores:</p>
+<p>When you click <em>Save all tabs in this window</em> (or, with Plus, <em>Save all windows</em>), Never Lose Tabs reads the web address (URL) and title of each tab and saves them in your browser's own extension storage on your computer. It also stores:</p>
 <ul>
-  <li>The date and time each group was saved, and any group name.</li>
-  <li>Daily backup copies of your saved tabs, kept for the last 3 days.</li>
-  <li>A few small settings: how many times you've saved (used once to ask for a rating), whether you've answered that ask, and a note after each update saying how many tabs came through it.</li>
+  <li>The date and time each group was saved, and any group name and color you choose.</li>
+  <li>Daily backup copies of your saved tabs, kept for the last 3 days (30 days with Plus).</li>
+  <li>A few small settings: how many times you've saved (used once to ask for a rating), whether you've answered that ask, a note after each update saying how many tabs came through it, and the last answer about your plan (free, trial or Plus), so the extension works offline.</li>
+  <li>A random ID that ExtensionPay creates when the extension is installed, the install date, and your plan details from ExtensionPay (including the email address you gave it, once you start a trial or buy Plus). These are kept in Chrome's extension storage, which Chrome may sync to your other computers if you've turned on Chrome sync.</li>
 </ul>
-<p>The extension only reads your tabs when you click its save button. It does not watch or record the pages you visit.</p>
+<p>The extension only reads your tabs when you save them. It does not watch or record the pages you visit. Searching your saved tabs (Plus) happens on your computer.</p>
 
 <h2>What leaves your computer</h2>
-<p>Nothing, unless you choose it:</p>
 <ul>
+  <li><strong>Plan checks.</strong> The extension sends its random ID to extensionpay.com to find out whether you have a trial or Plus. It never sends your tabs, page addresses or browsing.</li>
+  <li><strong>Trials and purchases.</strong> If you choose <em>Start 7-day free trial</em>, <em>Get Plus</em> or <em>Already paid? Log in</em>, a page from ExtensionPay opens. It asks for your email address, and ExtensionPay keeps it to link your trial or purchase to you and to send you sign-in links, for example to turn Plus on in another browser. Payments are processed by Stripe; your card details go to Stripe and are not stored by us or by ExtensionPay. ExtensionPay and Stripe handle this information under their own privacy policies. We may use the email address and plan of people who try or buy Plus to help with support and refunds.</li>
   <li><strong>Export backup file</strong> saves a file with your saved tabs wherever you choose. What happens to that file is up to you.</li>
   <li><strong>Import a file</strong> and <strong>Import from OneTab</strong> read only the file or text you give it, on your computer.</li>
   <li><strong>Rate it</strong> opens Never Lose Tabs' page in the Chrome Web Store, which Google runs under its own privacy policy.</li>
   <li>If you remove the extension, Chrome opens a page on this website asking why. Answering is optional and opens an email you choose whether to send.</li>
 </ul>
-<p>Never Lose Tabs has no servers of its own. It does not sell, rent or share your information, and it does not use it for advertising or to decide credit or lending. Our use of information follows the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+<p>Never Lose Tabs has no servers of its own. We don't sell, rent or share your information, and we don't use it for advertising or to decide credit or lending. Our use of information follows the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
 
 <h2>This website</h2>
 <p>This website is hosted on GitHub Pages. GitHub may log visitors' IP addresses for security, as described in GitHub's own privacy statement. We don't add any analytics or tracking to this site.</p>
 
 <h2>Removing your data</h2>
-<p>You can delete any group or tab on the Saved tabs page. Removing the extension from Chrome deletes everything it stored, including the daily backups. Backup files you exported stay wherever you saved them until you delete them.</p>
+<p>You can delete any group or tab on the Saved tabs page. Removing the extension from Chrome deletes everything it stored, including the daily backups. Backup files you exported stay wherever you saved them until you delete them. To have your email address and purchase record removed from ExtensionPay, email us at <a href="mailto:lazyfreelancer1@gmail.com">lazyfreelancer1@gmail.com</a>. Stripe keeps its own payment records under its own privacy policy.</p>
 
 <h2>Children</h2>
 <p>Never Lose Tabs is not directed at children under 13, and we don't knowingly collect information from them.</p>
